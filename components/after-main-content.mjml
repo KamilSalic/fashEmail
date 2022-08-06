@@ -1,0 +1,45 @@
+<mj-raw>
+  <!--After main content-->
+</mj-raw>
+<mj-section>
+  <mj-column>
+    <mj-text align="center" color="#000000" font-size="20px" font-family="Ubuntu, Helvetica, Arial, sans-serif" letter-spacing="1px">
+      CHECK OUR OTHER PRODUCTS
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-raw>
+  <!--Women and Men-->
+</mj-raw>
+<mj-section padding="0 20px">
+  <mj-column padding="0 20px 0 0">
+    <mj-image align="center" height="240px" src="./assets/wommm.png" href="https://www.gap.co.uk" alt="brunette woman showing the glasses"/>
+    <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" href="https://www.gap.co.uk">WOMEN</a></mj-text>
+  </mj-column>
+  <mj-column padding="0 0 0 20px">
+    <mj-image align="center" height="240px" src="./assets/men.png" href="https://www.gap.co.uk" alt="man in a suit"/>
+ <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" href="https://www.gap.co.uk">MEN</a></mj-text>
+  </mj-column>
+   <mj-column padding="0 5px 0 0">
+    <mj-image align="center" height="240px" src="./assets/gapfit.png" href="https://www.gap.co.uk" alt="fit woman"/>
+ <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" href="https://www.gap.co.uk">FIT</a></mj-text>
+  </mj-column>
+</mj-section>
+<mj-raw>
+  <!--Fit Maternity Girls Boys-->
+</mj-raw>
+<mj-section padding="0 20px">
+ 
+  <mj-column padding="0 0 0 5px">
+    <mj-image align="center" height="240px" src="./assets/maternit.png" href="https://www.gap.co.uk" alt="pregnant woman"/>
+   <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" href="https://www.gap.co.uk">MATERNITY</a></mj-text>
+  </mj-column>
+  <mj-column padding="0 5px 0 0">
+    <mj-image align="center" height="240px" src="./assets/girl1.png" href="https://www.gap.co.uk" alt="girl in colorfull dress"/>
+   <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" href="https://www.gap.co.uk">GIRLS</a></mj-text>
+  </mj-column>
+  <mj-column padding="0 0 0 5px">
+    <mj-image align="center" height="240px" src="./assets/boys.png" href="https://www.gap.co.uk" alt="boy with bowtie"/>
+   <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" href="https://www.gap.co.uk">BOYS</a></mj-text>
+  </mj-column>
+</mj-section>

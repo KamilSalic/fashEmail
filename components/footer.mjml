@@ -1,0 +1,101 @@
+    <mj-raw>
+      <!--FOOTER-->
+    </mj-raw>
+    <mj-raw>
+      <!--Find a store near you-->
+    </mj-raw>
+    <mj-section padding="0 0 10px">
+      <mj-column padding="0 20px 10px">
+        <mj-button href="https://www.gap.co.uk" align="center" color="#031745" font-size="18px" font-weight="bold" padding="5px 0 0" letter-spacing="1px" background-color="#ffffff" border="3px solid #000000;">FIND A STORE NEAR YOU</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Free Delivery Text-->
+    </mj-raw>
+    <mj-section padding="0 20px">
+      <mj-column width="80px">
+        <mj-image padding="0 0 10px" align="left" src="./assets/truck-icon.png" alt="truck icon" width="80px" />
+      </mj-column>
+      <mj-column width="470px" padding-right="10px">
+        <mj-text font-size="20px" align="left" color="#031745" padding="0" padding-left="10px">
+          <mj-raw><span style="font-weight: 800;">FREE DELIVERY</span>
+            <mj-raw> ON ORDER OVER £50.
+        </mj-text>
+        <mj-text font-size="20px" align="left" padding="0 0 10px 10px" color="#031745">
+          PLUS NOW OFFERING FREE RETURNS.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Thin Divider-->
+    </mj-raw>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider padding="0px 20px 10px" border-width="1px" border-color="grey" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Email Preferences Text-->
+    </mj-raw>
+    <mj-section padding="0 20px 10px">
+      <mj-column>
+        <mj-text font-size="20px" align="center" color="#031745" padding="0" font-weight="bold">
+          UPDATE YOUR EMAIL PREFERENCES ­&#x203a;
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Thin Divider-->
+    </mj-raw>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider padding="0px 20px 10px" border-width="1px" border-color="grey" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!--Social Icons-->
+    </mj-raw>
+    <mj-section padding="0 20px">
+      <mj-group css-class="grp-padd">
+        <mj-column padding="0 2px">
+          <mj-image padding="0" align="center" src="./assets/tw.png" alt="twitter icon" width="40px" />
+        </mj-column>
+        <mj-column padding="0 2px">
+          <mj-image padding="0" align="center" src="./assets/fb.png" alt="facebook icon" width="40px" />
+        </mj-column>
+        <mj-column padding="0 2px">
+          <mj-image padding="0" align="center" src="./assets/yt.png" alt="youtube icon" width="40px" />
+        </mj-column>
+        <mj-column padding="0 2px">
+          <mj-image padding="0" align="center" src="./assets/insta.png" alt="instagram icon" width="40px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!--Thin Divider-->
+    </mj-raw>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider padding="10px 20px 10px" border-width="1px" border-color="grey" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Unsubscribe links-->
+    </mj-raw>
+    <mj-section padding="0 20px 10px">
+      <mj-column>
+        <mj-text font-size="16px" align="center" color="#031745" padding="0" font-weight="bold">
+          <a class="unsub-links" href="https://www.gap.co.uk/">PRIVACY POLICY</a> | <a class="unsub-links" href="https://www.gap.co.uk/">UNSUBSCRIBE</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Copyright-->
+    </mj-raw>
+    <mj-section padding="20px 20px 10px">
+      <mj-column>
+        <mj-text font-size="10px" align="center" color="#031745" padding="0" font-weight="bold">
+          Copyright © GAP 2022
+        </mj-text>
+      </mj-column>
+    </mj-section>
