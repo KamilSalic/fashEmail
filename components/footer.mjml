@@ -4,9 +4,9 @@
     <mj-raw>
       <!--Find a store near you-->
     </mj-raw>
-    <mj-section padding="0 0 10px">
-      <mj-column padding="0 20px 10px">
-        <mj-button href="https://www.gap.co.uk" align="center" color="#031745" font-size="18px" font-weight="bold" padding="5px 0 0" letter-spacing="1px" background-color="#ffffff" border="3px solid #000000;">FIND A STORE NEAR YOU</mj-button>
+    <mj-section padding="0 0 20px">
+      <mj-column padding="0 20px">
+        <mj-button href="https://www.gap.co.uk" target="_blank" align="center" color="#031745" font-size="18px" font-weight="bold" padding="5px 0 0" letter-spacing="1px" background-color="#ffffff" border="3px solid #000000;">FIND A STORE NEAR YOU</mj-button>
       </mj-column>
     </mj-section>
     <mj-raw>
@@ -14,14 +14,14 @@
     </mj-raw>
     <mj-section padding="0 20px">
       <mj-column width="80px">
-        <mj-image padding="0 0 10px" align="left" src="./assets/truck-icon.png" alt="truck icon" width="80px" />
+        <mj-image padding="0 0 10px" align="center" src="https://drive.google.com/uc?id=1BzpljuVtwva2mJ_SdXC4ZO8ycDCWqVR6" alt="truck icon" width="80px" height="40px" />
       </mj-column>
-      <mj-column width="470px" padding-right="10px">
-        <mj-text font-size="20px" align="left" color="#031745" padding="0" padding-left="10px">
+      <mj-column width="400px">
+        <mj-text css-class="delivery-text delivery-text-413px" font-size="20px" align="left" color="#031745" padding="0">
           <mj-raw><span style="font-weight: 800;">FREE DELIVERY</span>
             <mj-raw> ON ORDER OVER £50.
         </mj-text>
-        <mj-text font-size="20px" align="left" padding="0 0 10px 10px" color="#031745">
+        <mj-text css-class="delivery-text" font-size="20px" align="left" padding="0 0 10px 0" color="#031745">
           PLUS NOW OFFERING FREE RETURNS.
         </mj-text>
       </mj-column>
@@ -56,19 +56,19 @@
     <mj-raw>
       <!--Social Icons-->
     </mj-raw>
-    <mj-section padding="0 20px">
-      <mj-group css-class="grp-padd">
+    <mj-section padding="0 80px" css-class="socials-padding">
+      <mj-group css-class="socials-padding">
         <mj-column padding="0 2px">
-          <mj-image padding="0" align="center" src="./assets/tw.png" alt="twitter icon" width="40px" />
+          <mj-image padding="0" align="center" target="_blank" href="https://www.twitter.com" src="https://drive.google.com/uc?id=15d580tdlUGMw7_fd8SFTJ3XVHwg6ETdq" alt="twitter icon" width="40px" />
         </mj-column>
         <mj-column padding="0 2px">
-          <mj-image padding="0" align="center" src="./assets/fb.png" alt="facebook icon" width="40px" />
+          <mj-image padding="0" align="center" target="_blank" href="https://www.facebook.com" src="https://drive.google.com/uc?id=1Nty-uR1eqcmdc_YJHGjJzG71ZsSmWz_5" alt="facebook icon" width="40px" />
         </mj-column>
         <mj-column padding="0 2px">
-          <mj-image padding="0" align="center" src="./assets/yt.png" alt="youtube icon" width="40px" />
+          <mj-image padding="0" align="center" target="_blank" href="https://www.youtube.com" src="https://drive.google.com/uc?id=1xwQqUBIMVvlNUl63Qn_vQ6w7Bq9pj2HC" alt="youtube icon" width="40px" />
         </mj-column>
         <mj-column padding="0 2px">
-          <mj-image padding="0" align="center" src="./assets/insta.png" alt="instagram icon" width="40px" />
+          <mj-image padding="0" align="center" target="_blank" href="https://www.instagram.com" src="https://drive.google.com/uc?id=1nicapDixJ99DNu6zj_NzVg_LCShAVRD-" alt="instagram icon" width="40px" />
         </mj-column>
       </mj-group>
     </mj-section>
@@ -85,7 +85,7 @@
     <mj-section padding="0 20px 10px">
       <mj-column>
         <mj-text font-size="16px" align="center" color="#031745" padding="0" font-weight="bold">
-          <a class="unsub-links" href="https://www.gap.co.uk/">PRIVACY POLICY</a> | <a class="unsub-links" href="https://www.gap.co.uk/">UNSUBSCRIBE</a>
+          <a class="unsub-links" href="https://www.gap.co.uk/" target="_blank">PRIVACY POLICY</a> | <a class="unsub-links" href="https://www.gap.co.uk/" target="_blank">UNSUBSCRIBE</a>
         </mj-text>
       </mj-column>
     </mj-section>

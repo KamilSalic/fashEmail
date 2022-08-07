@@ -12,34 +12,37 @@
   <!--Women and Men-->
 </mj-raw>
 <mj-section padding="0 20px">
-  <mj-column padding="0 20px 0 0">
-    <mj-image align="center" height="240px" src="./assets/wommm.png" href="https://www.gap.co.uk" alt="brunette woman showing the glasses"/>
-    <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" href="https://www.gap.co.uk">WOMEN</a></mj-text>
-  </mj-column>
-  <mj-column padding="0 0 0 20px">
-    <mj-image align="center" height="240px" src="./assets/men.png" href="https://www.gap.co.uk" alt="man in a suit"/>
- <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" href="https://www.gap.co.uk">MEN</a></mj-text>
-  </mj-column>
-   <mj-column padding="0 5px 0 0">
-    <mj-image align="center" height="240px" src="./assets/gapfit.png" href="https://www.gap.co.uk" alt="fit woman"/>
- <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" href="https://www.gap.co.uk">FIT</a></mj-text>
+  <mj-group width="372px">
+    <mj-column padding="0 0px 0 0">
+      <mj-image css-class="max-h-img" padding="10px 5px" align="center" height="240px" src="https://drive.google.com/uc?id=1aOXkifEk6W_ZH7Ue33uJ0xrD4jVzJfqi" href="https://www.gap.co.uk" target="_blank" alt="elegant brunette woman" />
+      <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" href="https://www.gap.co.uk" target="_blank">WOMEN</a></mj-text>
+    </mj-column>
+    <mj-column padding="0 0 0 0px">
+      <mj-image css-class="max-h-img" padding="10px 5px" align="center" height="240px" src="https://drive.google.com/uc?id=1qxgp50AXIG1zFTwdK13q8Zzpx0Io6YXA" href="https://www.gap.co.uk" target="_blank" alt="man in a suit" />
+      <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" href="https://www.gap.co.uk" target="_blank">MEN</a></mj-text>
+    </mj-column>
+  </mj-group>
+  <mj-column width="186px" padding="0 0px 0 0">
+    <mj-image css-class="max-h-img" padding="10px 5px" align="center" height="240px" src="https://drive.google.com/uc?id=1FRgSbkz15cvhp7GrXSmEH1eI3mvSBDE-" href="https://www.gap.co.uk" target="_blank" alt="fit woman" />
+    <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" href="https://www.gap.co.uk" target="_blank">FIT</a></mj-text>
   </mj-column>
 </mj-section>
 <mj-raw>
   <!--Fit Maternity Girls Boys-->
 </mj-raw>
 <mj-section padding="0 20px">
- 
-  <mj-column padding="0 0 0 5px">
-    <mj-image align="center" height="240px" src="./assets/maternit.png" href="https://www.gap.co.uk" alt="pregnant woman"/>
-   <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" href="https://www.gap.co.uk">MATERNITY</a></mj-text>
+  <mj-column width="186px" padding="0 0 0 0px">
+    <mj-image css-class="max-h-img" padding="10px 5px" padding="0" align="center" height="240px" src="https://drive.google.com/uc?id=1NcYdh4EBXhBqVO-4T_hggqh3YCeK_IgP" href="https://www.gap.co.uk" target="_blank" alt="pregnant woman" />
+    <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" target="_blank" href="https://www.gap.co.uk">MATERNITY</a></mj-text>
   </mj-column>
-  <mj-column padding="0 5px 0 0">
-    <mj-image align="center" height="240px" src="./assets/girl1.png" href="https://www.gap.co.uk" alt="girl in colorfull dress"/>
-   <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" href="https://www.gap.co.uk">GIRLS</a></mj-text>
-  </mj-column>
-  <mj-column padding="0 0 0 5px">
-    <mj-image align="center" height="240px" src="./assets/boys.png" href="https://www.gap.co.uk" alt="boy with bowtie"/>
-   <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" href="https://www.gap.co.uk">BOYS</a></mj-text>
-  </mj-column>
+  <mj-group width="372px">
+    <mj-column padding="0 0px 0 0">
+      <mj-image css-class="max-h-img" padding="10px 5px" align="center" height="240px" target="_blank" src="https://drive.google.com/uc?id=1PNr-R_s9W19eGPWuYgsRmm_cXeal47bi" href="https://www.gap.co.uk" alt="girl in colorfull dress" />
+      <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" target="_blank" href="https://www.gap.co.uk">GIRLS</a></mj-text>
+    </mj-column>
+    <mj-column padding="0 0 0 0px">
+      <mj-image css-class="max-h-img" padding="10px 5px" align="center" height="240px" target="_blank" src="https://drive.google.com/uc?id=1N9slOcHlhZKsKqDgl6yBionMmqL9rFee" href="https://www.gap.co.uk" alt="boy with bowtie" />
+      <mj-text align="center" color="#000000" font-size="16px"><a class="other-product-link" target="_blank" href="https://www.gap.co.uk">BOYS</a></mj-text>
+    </mj-column>
+  </mj-group>
 </mj-section>
