@@ -2,7 +2,7 @@
   <!--Divider-->
     </mj-raw>
     <mj-section background-color="#ffffff" padding="0">
-    <mj-column>
-      <mj-divider padding="20px 20px 20px" border-width="3px" border-color="grey"/>
+    <mj-column padding="20px 20px 20px">
+      <mj-divider css-class="divider" border-width="0"/>
       </mj-column>
   </mj-section>

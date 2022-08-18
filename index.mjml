@@ -9,9 +9,8 @@
       * {
       box-sizing: border-box !important;
       }
-
       .header-link {
-      color: #000000;
+      color: #000000 !important;
       text-decoration: none;
       padding: 0;
       }
@@ -26,9 +25,11 @@
       .garment-description-2 {
       padding: 0 !important;
       }
-
       .unsub-links {
-      color: #031745;
+      color: #031745 !important;
+      }
+a[href] {
+        color: #000000;
       }
       @media (max-width: 600px) {
       .hat-image {
@@ -41,15 +42,12 @@
       }
 
       .max-h-img>table>tbody>tr>td>a>img {
-      height: 240px !important;
-      max-height: 240px !important;
+      height: 200px !important;
+      max-height: 200px !important;
       }
       }
 
       @media (max-width: 550px) {
-      .swapped-column-540px {
-      float: right !important;
-      }
       .mobile-hidden {
       display: none !important;
       }
@@ -57,7 +55,6 @@
       padding: 0 !important;
       padding-top: 20px !important;
       }
-
       .garment-description {
       padding: 0 !important;
       padding-top: 20px !important;
@@ -89,22 +86,39 @@
       }
       }
 
-      @media (max-width: 480px) {
-      .mobile-padding {
-      padding-bottom: 5px !important; }
-      .socials-padding {
-      padding: 0 50px !important;
-      }
-      .header-link {
-      font-size: 18px !important;
+      @media (max-width: 520px) {
+      .truck-icon-padding>table>tbody>tr>td {
+      padding-right: 0 !important;
       }
       .delivery-text>div {
       text-align: center !important;
       }
       }
-      @media (max-width: 413px) {
-      .delivery-text-413px {
-      padding-bottom: 10px !important;
+
+      @media (max-width: 480px) {
+      .mobile-padding {
+      padding-bottom: 5px !important;
+      }
+      .socials-section-padding>table>tbody>tr>td {
+      padding: 0 !important;
+      }
+      .socials-padding {
+      padding: 0 20px 10px !important;
+      }
+      .header-link {
+      font-size: 18px !important;
+      }
+
+      @media (max-width: 410px) {
+      .shopping-categories-group {
+      text-align: center !important;
+      }
+      .shopping-categories-column {
+      max-width: 130px !important;
+      }
+      .max-h-img>table>tbody>tr>td>a>img {
+      padding: 0 5px !important;
+      }
       }
       }
     </mj-style>
@@ -115,6 +129,18 @@
       div {
       box-sizing: border-box !important;
       }
+      .divider {
+      border-top: 3px solid #cacaca !important;
+      }
+      .divider>p {
+      border-top: 0 !important;
+      }
+      .thinner-divider {
+      border-top: 1px solid #cacaca !important;
+      }
+      .thinner-divider>p {
+      border-top: 0 !important;
+      }
       .first-header-group-links>table>tbody>tr>td {
       padding: 0 80px 0 !important;
       }
@@ -123,7 +149,7 @@
       padding: 0 90px 0 !important;
       }
 
-      .other-product-link {
+      .shopping-categories-link {
       text-decoration: none;
       color: #000000;
       }
@@ -132,9 +158,17 @@
       text-decoration: none;
       color: #e78d74;
       }
+      .max-h-img {
+      padding: 0 30px !important;
+      }
       .max-h-img>table>tbody>tr>td>a>img {
-      height: 240px !important;
-      max-height: 240px !important;
+      height: 150px !important;
+      max-height: 150px !important;
+      }
+      .email-preferences-link {
+      color: #031745 !important;
+      font-size: 20px !important;
+      text-decoration: none !important;
       }
     </mj-style>
   </mj-head>
@@ -180,7 +214,7 @@
     <mj-section padding="40px 0px 10px">
       <mj-column width="260px" padding="20px 0px 0">
         <mj-image css-class="garment-nr" width="90px" align="center" padding="0px 124px 0px 0px" src="https://drive.google.com/uc?id=13fOPGin98AZqCHSRJ348bMC3JDJb1lus" alt="number one" />
-        <mj-text css-class="garment-description" align="center" color="#e78d74" font-size="31px" padding="20px 46px 0 0" font-weight="bold"><a class="four-links" href="https://www.gap.co.uk/" target="_blank">Straw Hat <mj-raw><span class="mobile-hidden">­&#x203a;</span>
+        <mj-text css-class="garment-description" align="center" color="#e78d74" font-size="31px" padding="20px 46px 0 0" font-weight="bold"><a class="four-links" href="https://www.gap.co.uk/" target="_blank">Straw Hat <mj-raw><span class="mobile-hidden"> ­&#x203a;</span>
             </mj-raw></a></mj-text>
       </mj-column>
       <mj-column padding="0" width="280px">
@@ -199,14 +233,14 @@
     <mj-raw>
       <!--Poncho-->
     </mj-raw>
-    <mj-section padding="40px 0 20px">
-      <mj-column padding="0 0px" width="340px">
+    <mj-section css-class="poncho-section" padding="40px 0 20px">
+      <mj-column css-class="poncho-img" padding="0 0px" width="340px">
         <mj-image width="340px" align="center" padding="0" src="https://drive.google.com/uc?id=1-rCM0_-d7w8UduwVX-UXhcKl3ILsghxc" alt="poncho" />
       </mj-column>
-      <mj-column css-class="number-two-padding" width="220px" padding="160px 0 20px 0px">
+      <mj-column css-class="number-two-padding poncho-txt" width="220px" padding="160px 0 20px 0px">
         <mj-image css-class="garment-nr" width="90px" align="center" padding="0 0 0 70px" src="https://drive.google.com/uc?id=1byH-tHT22Bw4RIy1jhmih2Zdz1ACun4x" alt="number two" />
         <mj-text css-class="garment-description" align="center" color="#e78d74" font-size="31px" padding="20px 22px 0 30px" font-weight="bold"><a class="four-links" href="https://www.gap.co.uk/" target="_blank">
-            <mj-raw><span class="mobile-hidden">&#8249;</span></mj-raw> Poncho
+            <mj-raw><span class="mobile-hidden">&#8249; </span></mj-raw> Poncho
           </a></mj-text>
         <mj-text css-class="garment-bottom-text" align="center" line-height="20px" padding="20px 0 0 0" color="#000000" font-size="18px" font-weight="normal">A retro vibe with</mj-text>
         <mj-text css-class="garment-bottom-2nd-text" align="center" line-height="30px" padding="0 34px 0 0" color="#000000" font-size="18px" font-weight="normal"> major fringe benefits.</mj-text>
@@ -218,7 +252,7 @@
     <mj-section padding="40px 0 20px">
       <mj-column width="260px" padding="15px 20px 0">
         <mj-image css-class="garment-nr" width="90px" align="center" padding="0px 128px 0 0" src="https://drive.google.com/uc?id=10pxlgXLeTo3R4nMsvDbulPG85ljiP5Dq" alt="number three" />
-        <mj-text css-class="garment-description" align="center" color="#e78d74" font-size="31px" padding="20px 15px 0 0" font-weight="bold"><a class="four-links" href="https://www.gap.co.uk/" target="_blank">Jean Shorts <mj-raw><span class="mobile-hidden">­&#x203a;</span></mj-raw></a></mj-text>
+        <mj-text css-class="garment-description" align="center" color="#e78d74" font-size="31px" padding="20px 15px 0 0" font-weight="bold"><a class="four-links" href="https://www.gap.co.uk/" target="_blank">Jean Shorts <mj-raw><span class="mobile-hidden"> ­&#x203a;</span></mj-raw></a></mj-text>
         <mj-text css-class="garment-bottom-text" align="center" padding="0" padding-top="20px" color="#000000" font-size="18px" font-weight="normal">So essential, they should</mj-text>
         <mj-text css-class="garment-bottom-2nd-text" align="center" line-height="30px" padding="0 30px 0 0" color="#000000" font-size="18px" font-weight="normal"> come with the ticket.</mj-text>
       </mj-column>
@@ -236,7 +270,7 @@
       <mj-column css-class="sandals-text-padding" width="260px" padding="60px 20px 0 0">
         <mj-image css-class="garment-nr" width="90px" align="center" padding="0 0 0 140px" src="https://drive.google.com/uc?id=1yQs6LfEcPmD36DlcV2mVGcvIG3fe3uGu" alt="number four" />
         <mj-text css-class="garment-description" align="center" color="#e78d74" font-size="31px" padding="20px 0 0 85px" font-weight="bold"><a class="four-links" href="https://www.gap.co.uk/" target="_blank">
-            <mj-raw><span class="mobile-hidden">&#8249;</span></mj-raw> Sandals
+            <mj-raw><span class="mobile-hidden">&#8249; </span></mj-raw> Sandals
           </a></mj-text>
         <mj-text css-class="garment-bottom-text" align="center" line-height="20px" color="#000000" font-size="18px" font-weight="normal" padding="20px 0px 0 66px">Strappy and comfy</mj-text>
         <mj-text css-class="garment-bottom-2nd-text" align="center" line-height="30px" color="#000000" font-size="18px" font-weight="normal" padding="0">for dancing your heart out</mj-text>

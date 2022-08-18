@@ -13,7 +13,7 @@
       <!--Free Delivery Text-->
     </mj-raw>
     <mj-section padding="0 20px">
-      <mj-column width="80px">
+      <mj-column css-class="truck-icon-padding" width="80px" padding-right="10px">
         <mj-image padding="0 0 10px" align="center" src="https://drive.google.com/uc?id=1BzpljuVtwva2mJ_SdXC4ZO8ycDCWqVR6" alt="truck icon" width="80px" height="40px" />
       </mj-column>
       <mj-column width="400px">
@@ -29,34 +29,29 @@
     <mj-raw>
       <!--Thin Divider-->
     </mj-raw>
-    <mj-section padding="0">
-      <mj-column>
-        <mj-divider padding="0px 20px 10px" border-width="1px" border-color="grey" />
-      </mj-column>
-    </mj-section>
+    <mj-include path="thin-divider.mjml" />
+
     <mj-raw>
       <!--Email Preferences Text-->
     </mj-raw>
     <mj-section padding="0 20px 10px">
       <mj-column>
         <mj-text font-size="20px" align="center" color="#031745" padding="0" font-weight="bold">
-          UPDATE YOUR EMAIL PREFERENCES ­&#x203a;
+          <a class="email-preferences-link" color="#031745" href="https://www.gap.co.uk"> UPDATE YOUR EMAIL PREFERENCES <mj-raw><span class="mobile-hidden">­&#x203a;</span>
+            </mj-raw>
+          </a>
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-raw>
       <!--Thin Divider-->
     </mj-raw>
-    <mj-section padding="0">
-      <mj-column>
-        <mj-divider padding="0px 20px 10px" border-width="1px" border-color="grey" />
-      </mj-column>
-    </mj-section>
+    <mj-include path="thin-divider.mjml" />
 
     <mj-raw>
       <!--Social Icons-->
     </mj-raw>
-    <mj-section padding="0 80px" css-class="socials-padding">
+    <mj-section padding="0 100px 10px" css-class="socials-section-padding">
       <mj-group css-class="socials-padding">
         <mj-column padding="0 2px">
           <mj-image padding="0" align="center" target="_blank" href="https://www.twitter.com" src="https://drive.google.com/uc?id=15d580tdlUGMw7_fd8SFTJ3XVHwg6ETdq" alt="twitter icon" width="40px" />
@@ -72,13 +67,10 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <!--Thin Divider-->
+    <mj-raw>
+      <!--Thin Divider-->
     </mj-raw>
-    <mj-section padding="0">
-      <mj-column>
-        <mj-divider padding="10px 20px 10px" border-width="1px" border-color="grey" />
-      </mj-column>
-    </mj-section>
+    <mj-include path="thin-divider.mjml" />
     <mj-raw>
       <!--Unsubscribe links-->
     </mj-raw>
