@@ -180,7 +180,7 @@ a[href] {
     </mj-raw>
     <mj-section padding="0">
       <mj-column padding="0">
-        <mj-text align="center" color="#103049" font-size="26px" padding="20px 0 0" letter-spacing="3px">WHAT'S IN YOUR BAG</mj-text>
+        <mj-text align="center" color="#103049" font-size="26px" padding="20px 20px 0" letter-spacing="3px">WHAT'S IN YOUR BAG</mj-text>
       </mj-column>
     </mj-section>
     <mj-raw>
