@@ -28,8 +28,8 @@
       .unsub-links {
       color: #031745 !important;
       }
-a[href] {
-        color: #000000;
+      a[href] {
+      color: #000000;
       }
       @media (max-width: 600px) {
       .hat-image {
@@ -41,7 +41,7 @@ a[href] {
       max-width: 100% !important;
       }
 
-      .max-h-img>table>tbody>tr>td>a>img {
+      .shopping-categories-image>table>tbody>tr>td>a>img {
       height: 200px !important;
       max-height: 200px !important;
       }
@@ -116,8 +116,11 @@ a[href] {
       .shopping-categories-column {
       max-width: 130px !important;
       }
-      .max-h-img>table>tbody>tr>td>a>img {
+      .shopping-categories-image>table>tbody>tr>td>a>img {
       padding: 0 5px !important;
+      }
+      .shopping-categories-image{
+      padding: 0 !important;
       }
       }
       }
@@ -158,10 +161,10 @@ a[href] {
       text-decoration: none;
       color: #e78d74;
       }
-      .max-h-img {
+      .shopping-categories-image {
       padding: 0 30px !important;
       }
-      .max-h-img>table>tbody>tr>td>a>img {
+      .shopping-categories-image>table>tbody>tr>td>a>img {
       height: 150px !important;
       max-height: 150px !important;
       }
@@ -288,6 +291,5 @@ a[href] {
     <mj-include path="./components/after-main-content.mjml" />
     <mj-include path="./components/divider.mjml" />
     <mj-include path="./components/footer.mjml" />
-
   </mj-body>
 </mjml>
