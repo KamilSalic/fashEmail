@@ -51,6 +51,9 @@
       .mobile-hidden {
       display: none !important;
       }
+      .second-header-group-links>table>tbody>tr>td {
+      padding-top: 10px !important;
+      }
       .garment-nr {
       padding: 0 !important;
       padding-top: 20px !important;
@@ -99,15 +102,19 @@
       .mobile-padding {
       padding-bottom: 5px !important;
       }
+      .header-link {
+      font-size: 18px !important;
+      }
+      .second-header-group-links>table>tbody>tr>td {
+      padding-top: 5px !important;
+      }
       .socials-section-padding>table>tbody>tr>td {
       padding: 0 !important;
       }
       .socials-padding {
       padding: 0 20px 10px !important;
       }
-      .header-link {
-      font-size: 18px !important;
-      }
+
 
       @media (max-width: 410px) {
       .shopping-categories-group {
@@ -121,6 +128,28 @@
       }
       .shopping-categories-image{
       padding: 0 !important;
+      }
+      .shopping-categories-double-column-margin-right {
+      margin-right: 30px !important;
+      }
+      .shopping-categories-double-column-margin-left {
+      margin-left: 30px !important;
+      }
+      }
+      @media (max-width: 360px) {
+      .shopping-categories-double-column-margin-right {
+      margin-right: 15px !important;
+      }
+      .shopping-categories-double-column-margin-left {
+      margin-left: 15px !important;
+      }
+      }
+      @media (max-width: 330px) {
+      .shopping-categories-double-column-margin-right {
+      margin-right: 5px !important;
+      }
+      .shopping-categories-double-column-margin-left {
+      margin-left: 5px !important;
       }
       }
       }
